@@ -206,6 +206,7 @@ class MainActivity : AppCompatActivity() {
                 else {
                     textview1.text = textview1.text.toString().substring(1)
                 }
+                if (dau == "=") dau = ""
             }
         }
         findViewById<Button>(R.id.cham).setOnClickListener {
